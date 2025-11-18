@@ -221,7 +221,7 @@
 			}
 		</style>
 	</head>
-	<body>
+		<body>
 		<header>
 			<h1>Blue Arena</h1>
 		</header>
@@ -237,7 +237,11 @@
 						Присоединяйтесь к тысячам игроков и выигрывайте каждый день на нашей
 						платформе.
 					</p>
-					<button class="cta-button" aria-label="Начать делать ставки">
+					<button
+						class="cta-button"
+						aria-label="Начать делать ставки"
+						onclick="window.location.href='https://fon.bet/authProcess/registration?utm_campaign=mst_campaign'"
+					>
 						Начать сейчас
 					</button>
 				</div>
@@ -312,11 +316,15 @@
 				</p>
 			</div>
 			<div class="footer-buttons">
-				<button onclick="window.history.back()" aria-label="Вернуться назад">
+				<button
+					onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+					aria-label="Вернуться наверх"
+				>
 					Назад
 				</button>
 			</div>
 		</footer>
 	</body>
 </html>
+
 
